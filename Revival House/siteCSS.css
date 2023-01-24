@@ -1,0 +1,28 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+#schedule{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:80%;
+}
+
+#table2 tr{
+    border:1px solid;
+}
+
+#insta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#link{
+    flex-basis: 10%;
+}
+
+#table15{
+    height:400px;
+}
