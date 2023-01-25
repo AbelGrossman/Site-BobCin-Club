@@ -1,5 +1,7 @@
 
-let selectedId;
+const visibleClass = "visible";
+
+var selectedId;
 
 function switchToImage(id) {
     // Nothing to do if we have already select this section.
@@ -18,10 +20,10 @@ function switchToImage(id) {
     // first time.
     const previousSection = document.getElementById(selectedId);
     if (previousSection)
-        previousSection.removeAttribute("class");
+        previousSection.classList.remove(visibleClass);
 
     // Now make the new section visible.
-    newSection.className = "visible";
+    newSection.classList.add(visibleClass);
 
     // Finally, we must keep track of the id for the newly-selected section.
     selectedId = id;
