@@ -26,3 +26,13 @@ html{
 #table15{
     height:400px;
 }
+
+/* This matches each section we want to switch between. They're not visible by default,
+but can be made visible using a "visible" class. */
+#imgtext > div {
+    display: none;
+}
+
+#imgtext > div.visible {
+    display: block;
+}
