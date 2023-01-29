@@ -1,16 +1,6 @@
-html{
+html, body{
     width:100%;
     height:100%;
-}
-
-#schedule{
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height:80%;
-}
-
-#table2 tr{
-    border:1px solid;
 }
 
 #insta{
@@ -20,19 +10,58 @@ html{
 }
 
 #link{
-    flex-basis: 10%;
+    flex-basis:10%;
 }
 
-#table15{
-    height:400px;
-}
-
-/* This matches each section we want to switch between. They're not visible by default,
-but can be made visible using a "visible" class. */
 #imgtext > div {
     display: none;
 }
 
 #imgtext > div.visible {
     display: block;
+}
+
+#table15{
+    height: 80%;
+    width:100%;
+}
+
+#part1{
+    width:13%;
+    height:100%;
+}
+
+button{
+    width:100%;
+}
+
+#schedule{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:100%;
+    width:100%;
+}
+
+#table2{
+    height:100%;
+    width:100%;
+}
+
+
+.imgtd{
+    width:30%;
+}
+
+#imgtext img{
+    height:100%;
+    width:100%;
+    aspect-ratio: 2/2.83018868;
+}
+
+td.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    height:100%;
+    padding:5%;
 }
