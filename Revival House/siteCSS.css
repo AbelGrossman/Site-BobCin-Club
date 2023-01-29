@@ -3,14 +3,36 @@ html, body{
     height:100%;
 }
 
-#insta{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+p,a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-#link{
-    flex-basis:10%;
+a:link{
+    color:darkblue;
+    text-decoration-line:none;
+}
+
+a:visited{
+    color:darkblue;
+    text-decoration:none;
+}
+
+
+a:hover{
+    color:darkblue;
+    text-decoration-line: underline;
+}
+
+a:active{
+    color:darkblue;
+    text-decoration-line:underline;
+}
+
+#table1{
+    height:20%;
+    width:100%; 
+    border:0px; 
+    border-collapse:collapse;
 }
 
 #imgtext > div {
@@ -27,12 +49,8 @@ html, body{
 }
 
 #part1{
-    width:13%;
+    width:20%;
     height:100%;
-}
-
-button{
-    width:100%;
 }
 
 #schedule{
@@ -47,9 +65,36 @@ button{
     width:100%;
 }
 
+button{
+    width:100%;
+    background-color: white;
+    border-width: 0px;
+    padding:10%;
+    font-size:90%;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+#upco:hover{
+    background-color: white;
+}
+
+button:focus{
+    background-color:gainsboro;
+}
+
+#upco:focus{
+    background-color: white;
+}
+
+#part2{
+    padding-left: 3%;
+}
 
 .imgtd{
-    width:30%;
+    width:35%;
 }
 
 #imgtext img{
